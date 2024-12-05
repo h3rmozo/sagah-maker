@@ -38,11 +38,11 @@ def fazer_login():
         )
         
         username_field.clear()
-        username_field.send_keys("9887")
+        username_field.send_keys("")
         
         password_field = driver.find_element(By.ID, "password")
         password_field.clear()
-        password_field.send_keys("36bCsSZS")
+        password_field.send_keys("")
         
         login_button = driver.find_element(By.ID, "loginbtn")
         login_button.click()
