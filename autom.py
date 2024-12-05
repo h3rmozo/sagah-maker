@@ -18,7 +18,7 @@ from datetime import datetime
 import sqlite3
 
 # Configurar OpenAI - substitua pela sua chave
-openai.api_key = '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'
+openai.api_key = ''
 
 def fazer_login():
     # Configurar opções do Chrome para melhor estabilidade
